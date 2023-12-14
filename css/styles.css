@@ -102,7 +102,9 @@ padding: 24px 0;
 /* studio page styles */
 .hero-section {
     background-color: var(--brand-color);
+    background-image: url('../images/hero-picture.jpeg');
     padding: 188px 0;
+    background-size: cover;
 }
 .section { padding: 94px 0px;}
 
@@ -112,8 +114,9 @@ padding: 24px 0;
     flex-direction: column;
 justify-content: center;
 align-items: center;
-background-color: var(--brand-color);
-}   
+
+
+}  
 
     
 
