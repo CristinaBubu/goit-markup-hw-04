@@ -351,9 +351,7 @@ padding-bottom: 120px;}
 
 }
 
-.customers-link:hover,
-.customers-link:focus {
-    border-color: #404bbf;
+.customers-link:focus { border-color: #404bbf;
     color: #404bbf;
 }
 
