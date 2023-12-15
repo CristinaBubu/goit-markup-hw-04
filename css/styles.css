@@ -4,6 +4,7 @@
     --brand-color: #2E2F42;
     --logo-color: #4d5ae5;
     --background-color-potfolio: #F4F4FD;
+    --icon-grey: #8E8F99;
 }
 
 img {
@@ -326,7 +327,37 @@ padding-bottom: 120px;}
 
 }
 
+.customers-list {display: flex;
+    gap: 24px;
+    height: 88px;
+}
 
+.customers-list-element {
+    width: calc((100% - 120px) / 6);
+
+}
+
+.customers-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--icon-grey);
+
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
+.svg-fifth-sect {fill: currentColor;
+
+}
 
 
 
