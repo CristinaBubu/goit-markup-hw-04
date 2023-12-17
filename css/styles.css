@@ -18,6 +18,9 @@ background-color: var(--background-color);
 h2 {margin: 0;
 }
 
+p {margin: 0;
+}
+
 .body-studio {font-family: 'Roboto', sans-serif;
 }
 
